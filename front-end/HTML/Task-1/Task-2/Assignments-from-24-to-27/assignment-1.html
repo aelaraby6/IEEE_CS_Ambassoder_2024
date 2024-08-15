@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title></title>
+</head>
+<body>
+    <form action="test.py" method="POST">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+        <hr>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <hr>
+
+        <label for="mobile">Mobile</label>
+        <input type="tel" id="mobile" name="mobile" pattern="\+\d{2}\d{3}\s?\(\d{3}\)\s?\d{3}">
+        <hr>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <hr>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject">
+        <hr>
+
+        <input type="hidden" name="hidden_field" value="12345">
+
+        <button type="reset">Empty Form</button>
+        <button type="submit">Send Data</button>
+    </form>
+</body>
+</html>
