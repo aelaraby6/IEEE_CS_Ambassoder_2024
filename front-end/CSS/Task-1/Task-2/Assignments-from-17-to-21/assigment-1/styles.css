@@ -1,0 +1,9 @@
+.text-effect {
+    font-size: 4rem;
+    font-weight: bold;
+    color: black;
+    text-shadow: 3px 3px 0 red,
+                -3px -3px 0 blue,
+                3px -3px 0 magenta;
+}
+

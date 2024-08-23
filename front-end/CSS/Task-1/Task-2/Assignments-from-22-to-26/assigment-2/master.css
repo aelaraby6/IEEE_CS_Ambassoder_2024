@@ -1,0 +1,22 @@
+.one {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.two {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.three {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
