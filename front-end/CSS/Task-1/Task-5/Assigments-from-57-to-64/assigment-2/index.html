@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <style>
+      .layout {
+        display: grid;
+        background-color: #eee;
+        width: 900px;
+        height: 700px;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: 60px 1fr 60px;
+        grid-template-areas:
+          "head head head head head head head head"
+          "sec sec sec sec sec sec side side"
+          "foot foot foot foot foot foot foot foot";
+      }
+      .layout *::before {
+        content: var(--name);
+        padding: 20px;
+      }
+      header {
+        --name: "Header";
+        color: rgb(255, 255, 255);
+        grid-area: head;
+        background-color: #0098fd;
+      }
+      section {
+        --name: "Section";
+        color: rgb(255, 255, 255);
+        grid-area: sec;
+        background-color: rgb(222, 66, 9);
+      }
+      aside {
+        --name: "Aside";
+        color: rgb(255, 255, 255);
+        grid-area: side;
+        background-color: gray;
+      }
+      footer {
+        --name: "Footer";
+        color: rgb(255, 255, 255);
+        grid-area: foot;
+        background-color: rgb(7, 124, 89);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <header></header>
+      <section></section>
+      <aside></aside>
+      <footer></footer>
+    </div>
+  </body>
+</html>
