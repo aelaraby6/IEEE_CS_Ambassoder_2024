@@ -49,7 +49,6 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 2;
-  /* header فوق الـ overlay */
   position: relative;
   margin-top: 10px;
 
