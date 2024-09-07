@@ -1,0 +1,32 @@
+.parent {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    background-color: #efefef;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .one,
+  .two,
+  .three {
+    display: flex;
+    color: white;
+    background-color: rgb(3, 128, 117);
+    width: 40px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .one {
+    align-self: flex-end;
+  }
+  .two {
+    align-self: flex-start;
+    width: 50%;
+  }
+  .three {
+    align-self: flex-end;
+  }

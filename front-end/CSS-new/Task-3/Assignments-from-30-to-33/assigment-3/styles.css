@@ -1,0 +1,42 @@
+.parent {
+  width: 400px;
+  margin: 20px auto;
+}
+
+.one,
+.two,
+.three {
+  background-color: #eee;
+  padding: 15px;
+  margin-bottom: 25px;
+  list-style-type: none;
+}
+
+.one ol,
+.two ol {
+  padding-left: 10px;
+  margin: 10px;
+}
+
+.two ol {
+  list-style-type: upper-roman;
+}
+
+.one ol li,
+.two ol li {
+  background-color: #fff;
+  padding: 5px;
+}
+
+.three ul {
+  padding-left: 0;
+  margin: 10px;
+}
+
+.three ul li {
+  background-color: #fff;
+  margin: 10px;
+  padding: 5px;
+  list-style-position: inside;
+  width: 100%;
+}

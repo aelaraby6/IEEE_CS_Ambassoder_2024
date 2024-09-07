@@ -1,0 +1,16 @@
+div {
+  padding: 10px;
+  margin: 10px;
+  background-color: #efefef;
+  position: relative;
+  width: 400px;
+  margin-left: 60px;
+}
+div::first-letter {
+  position:absolute;
+  background-color: red;
+  padding: 10px;
+  color: white;
+  top: 30px;
+  left: -10px;
+}

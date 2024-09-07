@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+ 
+.parent div{
+  width: 600px;
+  margin: 20px auto;
+  border-bottom: 5px solid;
+  border-image-source: linear-gradient(to right, #f44336 50%, #009688 50%, #009688 100%);
+  border-image-slice: 20 fill;
+}
+.parent div input{
+  width: 100%;
+  padding: 20px;
+  background-color: #eee;
+  border: none;
+  caret-color: red;
+}
+  </style>
+</head>
+<body>
+  
+
+
+    <div class="parent">
+        <div>
+            <input type="text" value="Elzero">
+        </div>
+        <div>
+            <input type="text" placeholder="Two">
+        </div>
+        <div>
+            <input type="text" placeholder="Three">
+        </div>
+    </div>
+
+</body>
+</html>

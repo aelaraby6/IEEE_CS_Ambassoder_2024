@@ -1,0 +1,23 @@
+.test{
+    width: 400px;
+    height: 200px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    text-transform: capitalize;
+    transition-duration: 0.5s;
+  }
+  .test:hover{
+    margin-top: 50px;
+  }
+  .down{
+    background-color: #ddd;
+    padding: 20px;
+    margin-top: 10px;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .test:hover .down{
+    margin-top: 30px;
+  }

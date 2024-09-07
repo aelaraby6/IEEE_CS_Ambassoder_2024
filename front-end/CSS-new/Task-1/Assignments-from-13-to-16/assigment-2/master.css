@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.One {
+    max-width: 400px;
+    width: fit-content;
+    background-color: rgb(167, 10, 10);
+    color: #FFF;
+    padding: 10px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.Two {
+    max-width: 400px;
+    width: fit-content;
+    background-color: rgb(167, 10, 10);
+    color: #FFF;
+    padding: 15px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.Three {
+    max-width: 400px;
+    width: fit-content;
+    background-color: rgb(167, 10, 10);
+    color: #FFF;
+    padding: 15px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.Four {
+    max-width: 400px;
+    width: fit-content;
+    background-color: rgb(167, 10, 10);
+    color: #FFF;
+    padding: 15px;
+    max-height: 25px;
+    overflow: hidden;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
